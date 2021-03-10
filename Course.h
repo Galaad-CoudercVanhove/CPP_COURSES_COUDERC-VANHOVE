@@ -9,6 +9,7 @@ class Course{
         int _score2;
         int _score3;
         int _bestscore;
+        int _jamaisjoue;
     public:
         std::string getNomcourse();
         std::string getNomjoueur();
@@ -16,5 +17,5 @@ class Course{
         float getScore2();
         float getScore3();
         float getBestscore();
-
+        float getJamaisjoue();
 };
