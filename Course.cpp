@@ -4,6 +4,7 @@
 #include <iostream>
 
 void Course::afficher(){
+    _score1 = _bestscore;
     std::cout << _score1;
     std::cout << _score2;
     std::cout << _score3;
