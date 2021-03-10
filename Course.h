@@ -11,6 +11,7 @@ class Course{
         int _bestscore;
         int _jamaisjoue;
     public:
+        void afficher();
         std::string getNomcourse();
         std::string getNomjoueur();
         float getScore1();
