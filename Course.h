@@ -19,4 +19,5 @@ class Course{
         float getScore3();
         float getBestscore();
         float getJamaisjoue();
+        Course(std:string nomcourse);
 };
