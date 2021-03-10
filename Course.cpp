@@ -4,9 +4,9 @@
 #include <iostream>
 
 void Course::afficher(){
-    std::cout << Score1;
-    std::cout << Score2;
-    std::cout << Score3;
+    std::cout << _score1;
+    std::cout << _score2;
+    std::cout << _score3;
 }
 
 std::string Cousre::getNomjoueur(){
