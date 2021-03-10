@@ -1,4 +1,5 @@
 #include "Course.h"
+#include "Championnat.h"
 #include <string>
 #include <iostream>
 
